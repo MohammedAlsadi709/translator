@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Text Dictionary</string>
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+
+    <string name="ar">Arabic</string>
+    <string name="en">English</string>
+    <string name="af">Afrikaans</string>
+    <string name="be">Belarusian</string>
+    <string name="bg">Bulgarian</string>
+    <string name="bn">Bengali</string>
+    <string name="ca">Catalan</string>
+    <string name="cs">Czech</string>
+    <string name="cy">Xhosa</string>
+    <string name="da">Danish</string>
+    <string name="de">German</string>
+    <string name="el">Greek</string>
+    <string name="eo">Esperanto</string>
+    <string name="es">Spanish</string>
+    <string name="et">Estonian</string>
+    <string name="fa">Farsi</string>
+    <string name="fi">Finnish</string>
+    <string name="fr">French</string>
+    <string name="ga">Irish</string>
+    <string name="gl">Galician</string>
+    <string name="gu">Gujarati</string>
+    <string name="he">Hebrew</string>
+    <string name="hi">Hindi</string>
+    <string name="hr">Croatian</string>
+    <string name="ht">Haitian</string>
+    <string name="hu">Hungarian</string>
+    <string name="id">Indonesian</string>
+    <string name="is">Icelandic</string>
+    <string name="it">Italian</string>
+    <string name="ja">Japanese</string>
+    <string name="ka">Georgian</string>
+    <string name="kn">kannada</string>
+    <string name="ko">Korean</string>
+    <string name="lt">Lithuanian</string>
+    <string name="lv">Latvian</string>
+    <string name="mk">Macedonian</string>
+    <string name="mr">Marathi</string>
+    <string name="ms">Malay</string>
+    <string name="mt">Maltese</string>
+    <string name="nl">Dutch</string>
+    <string name="no">Norwegian</string>
+    <string name="pl">Polish</string>
+    <string name="pt">Portuguese</string>
+    <string name="ro">Romanian</string>
+    <string name="ru">Russian</string>
+    <string name="sk">Slovak</string>
+    <string name="sl">Slovenian</string>
+    <string name="sq">Albanian</string>
+    <string name="sv">Swedish</string>
+    <string name="sw">Swahili</string>
+    <string name="ta">Tamil</string>
+    <string name="te">Telugu</string>
+    <string name="th">Thai</string>
+    <string name="tl">Tagalog</string>
+    <string name="tr">Turkish</string>
+    <string name="uk">Ukrainian</string>
+    <string name="ur">Urdu</string>
+    <string name="vi">Vietnamese</string>
+    <string name="zh">Chinese</string>
+
+
+    <string name="type_text_here">Type Text Here..</string>
+    <string name="enterSourceLang">Choose Source Language To Translate Please!!</string>
+    <string name="enterTargetLang">Choose Target Language to Translate Please!!</string>
+    <string name="chooseBothLang">Choose both of languages at first</string>
+    <string name="downloadingModel">Downloading Language…</string>
+    <string name="translating">Translating…</string>
+    <string name="translateSomethingWrong">Something Wrong in Translate!!</string>
+    <string name="SomethingWronginDownload">Something Wrong in Downloading Language!!</string>
+    <string name="targetLanguage">targetLanguage</string>
+    <string name="readText">readText</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="speakToTranslate">Speak To Translate…</string>
+    <string name="somethingWrong">Something Wrong</string>
+    <string name="btnClear">Button Clear</string>
+    <string name="button_speak">Button Speak</string>
+    <string name="btnopencamera">Button Open Camera</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="lorem_ipsum_colang">لورم ايبسم هو عبارة عن نص وهمي يتم استخدامه كثيراً في الأماكن التي تحتاج فيها نصوص كثيرة وذلك لانه يوفر لك فقرات عديدة كما لو أنه نص حقيقي ومهم لذلك يستخدمه الكثير من المصممين في مجال التصميم لملء محتوى التصميم بالكلام.</string>
+    <string name="close">اغلاق</string>
+    <string name="InputMethodService">InputMethodService</string>
+    <string name="favorites">Bookmarks</string>
+    <string name="loading">Loading…</string>
+    <string name="Copied">Copied</string>
+    <string name="bookmarks_is_empty">You haven\'t added bookmarks yet!!</string>
+    <string name="sometingWrong1">Something Went Wrong!!.. try again later please</string>
+
+    <style name="fontType" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/quicksand_m</item>
+    </style>
+
+    <drawable name="ic_back_for_nav">@mipmap/ic_back_nav_en</drawable>
+</resources>

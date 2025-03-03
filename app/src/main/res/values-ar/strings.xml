@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Text Dictionary</string>
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+
+    <string name="ar">العربية</string>
+    <string name="en">الإنجليزية</string>
+    <string name="af">الأفريقانية</string>
+    <string name="be">البيلاروسية</string>
+    <string name="bg">البلغارية</string>
+    <string name="bn">البنغالية</string>
+    <string name="ca">الكاتالونية</string>
+    <string name="cs">التشيكية</string>
+    <string name="cy">خوسا</string>
+    <string name="da">الدانماركية</string>
+    <string name="de">الألمانية</string>
+    <string name="el">اليونانية</string>
+    <string name="eo">الاسبرانتو</string>
+    <string name="es">الإسبانية</string>
+    <string name="et">إستونية</string>
+    <string name="fa">الفارسية</string>
+    <string name="fi">الفنلندية</string>
+    <string name="fr">الفرنسية</string>
+    <string name="ga">الأيرلندية</string>
+    <string name="gl">الجاليكية</string>
+    <string name="gu">الغوجاراتية</string>
+    <string name="he">العبرية</string>
+    <string name="hi">الهندية</string>
+    <string name="hr">الكرواتية</string>
+    <string name="ht">الهايتية</string>
+    <string name="hu">الهنغارية</string>
+    <string name="id">الأندونيسية</string>
+    <string name="is">الآيسلندية</string>
+    <string name="it">الإيطالية</string>
+    <string name="ja">اليابانية</string>
+    <string name="ka">الجورجية</string>
+    <string name="kn">الكانادا</string>
+    <string name="ko">الكورية</string>
+    <string name="lt">الليتوانية</string>
+    <string name="lv">لاتفية</string>
+    <string name="mk">المقدونية</string>
+    <string name="mr">الماراثية</string>
+    <string name="ms">الملايو</string>
+    <string name="mt">المالطية</string>
+    <string name="nl">الهولندية</string>
+    <string name="no">النرويجية</string>
+    <string name="pl">البولندية</string>
+    <string name="pt">البرتغالية</string>
+    <string name="ro">الرومانية</string>
+    <string name="ru">الروسية</string>
+    <string name="sk">السلوفاكية</string>
+    <string name="sl">السلوفينية</string>
+    <string name="sq">الألبانية</string>
+    <string name="sv">السويدية</string>
+    <string name="sw">السواحيلية</string>
+    <string name="ta">التاميل</string>
+    <string name="te">التيلجو</string>
+    <string name="th">التايلاندية</string>
+    <string name="tl">تاغالوغ</string>
+    <string name="tr">التركية</string>
+    <string name="uk">الأوكرانية</string>
+    <string name="ur">الأوردية</string>
+    <string name="vi">الفيتنامية</string>
+    <string name="zh">الصينية</string>
+
+
+    <string name="type_text_here">اكتب النص هنا..</string>
+    <string name="enterSourceLang">اختر اللغة التي تود الترجمة منها رجاءً!!</string>
+    <string name="enterTargetLang">اختر اللغة التي تود الترجمة إليها!!</string>
+    <string name="chooseBothLang">اختر اللغة التي تود الترجمة منها واللغة التي تود الترجمة إليها رجاءً!!</string>
+    <string name="downloadingModel">جاري تحميل اللغة …</string>
+    <string name="translating">جاري الترجمة…</string>
+    <string name="translateSomethingWrong">حدث خلل ما أثناء الترجمة!!</string>
+    <string name="SomethingWronginDownload">حدث خلل ما اثناء تحميل اللغة!!</string>
+    <string name="targetLanguage">اللغة الوجهة</string>
+    <string name="readText">قراءة النص</string>
+    <string name="choose_language">اختر اللغة</string>
+    <string name="speakToTranslate">تكلم للترجمة…</string>
+    <string name="somethingWrong">حدث خطأ ما!</string>
+    <string name="btnClear">زر تفريغ</string>
+    <string name="button_speak">نص إلى كلام</string>
+    <string name="btnopencamera">زر فتح الكاميرا</string>
+    <string name="lorem_ipsum">لورم ايبسم هو عبارة عن نص وهمي يتم استخدامه كثيراً في الأماكن التي تحتاج فيها نصوص كثيرة وذلك لانه يوفر لك فقرات عديدة كما لو أنه نص حقيقي ومهم لذلك يستخدمه الكثير من المصممين في مجال التصميم لملء محتوى التصميم بالكلام.</string>
+    <string name="lorem_ipsum_colang">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="close">اغلاق</string>
+    <string name="InputMethodService">InputMethodService</string>
+    <string name="favorites">علامات مرجعية</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="Copied">تم النسخ</string>
+    <string name="bookmarks_is_empty">لم تقم بإضافة إشارات مرجعية بعد!!</string>
+    <string name="sometingWrong1">حدث خطأ ما!! ..الرجاء اعادة المحاولة لاحقاً</string>
+
+    <style name="fontType" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/font7</item>
+    </style>
+
+    <drawable name="ic_back_for_nav">@mipmap/ic_back_nav_ar</drawable>
+
+</resources>

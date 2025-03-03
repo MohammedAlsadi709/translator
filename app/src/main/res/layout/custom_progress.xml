@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/view"
+        android:layout_width="16dp"
+        android:background="@color/background"
+        android:layout_height="match_parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/views"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loading_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/loading"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/loader"
+        app:layout_constraintStart_toEndOf="@id/loader"
+        app:layout_constraintTop_toTopOf="@id/loader" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

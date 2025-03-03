@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".FavoritesActivity">
+<!--
+       <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/toolbar"
+           app:title=" "
+           android:background="@color/background"
+           app:titleTextColor="@color/black"
+           android:theme="@style/ThemeOverlay.AppCompat.Light"
+           app:popupTheme="@style/AppTheme.PopupOverlay">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/textColor"
+               android:textSize="18dp"
+               android:textStyle="bold"
+               android:layout_gravity="center"
+               android:text="@string/favorites"
+               android:id="@+id/toolbar_title"/>
+       </androidx.appcompat.widget.Toolbar>
+    -->
+
+    <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/toolbar"
+           app:title="@string/favorites"
+           android:background="@color/background"
+           app:titleTextColor="@color/black"
+           android:theme="@style/ThemeOverlay.AppCompat.Light"
+           app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+   <!-- <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:popupTheme="@style/Theme.MaterialComponents.Light"
+        app:title="@string/favorites"
+        app:titleCentered="true"
+        app:titleTextColor="@color/textColor" />-->
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_marginTop="16dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginBottom="16dp"
+      android:layout_height="match_parent">
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:id="@+id/rvFavorites"
+          android:layout_height="match_parent"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:id="@+id/txtEmpty"
+          android:textSize="16dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:textColor="@color/textColor"
+          android:textStyle="bold"
+          android:visibility="gone"
+          android:drawablePadding="16dp"
+          android:text="@string/bookmarks_is_empty"
+          app:drawableTopCompat="@drawable/dr_top_empty"
+          app:drawableTint="@color/textColor" />
+  </FrameLayout>
+
+</LinearLayout>
